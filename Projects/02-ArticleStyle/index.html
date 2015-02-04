@@ -8,57 +8,9 @@
 		<!--Bad CSS
 		<style>
 
-			.caption {
-				font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-				color: #666;
-				font-size: 14px;
-				line-height: 20px;
-			}
-
-			.contents {
-				font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-				color: #999;
-				font-size: 14px;
-				font-weight: 800;
-				text-transform: uppercase;
-			}
 			.contentslist {
 				list-style-type: none;
 
-			}
-			h1 {
-				font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-				color: #222;
-				font-size: 60px;
-				font-weight: 800;
-				text-align: center;
-			}
-			h2 {
-				font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-				font-size: 36px;
-				font-color: #222;
-				font-weight: 800;
-			}
-			h3 {
-				
-			}
-			h5 {
-				font-family: Georgia, Helvetica, Arial, sans-serif;
-				color: #999;
-				font-size: 20px;
-				font-weight: lighter;
-				text-align: center;
-			}
-
-			.imgMain {
-				width: 975px;
-				border: 2px solid #ccc;
-			}
-			.imgCaption {
-				
-				float: right;
-				margin: 8px 0 0 20px;
-				padding: 4px;
 			}
 			figure {
 				border: 2px solid #ccc;
@@ -88,31 +40,28 @@
 			
 		</style>-->
 		<style>
+		.caption {
+			color: #666;
+			font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			line-height: 20px;
+		}
+
 		.container {
 			width: 775px;
 			margin: 0 auto;
 
 		}
-		.picture {
-			width: 975px;
-			border: solid 2px #ccc;
-		}
-		.quote {
-			width: 975px;
-			background: #f6f6f6;
-			border-left:solid 20px #e3e3e3;
-			font-style: italic;
-			font-size: 20px;
-			padding: 30px;
+		.contents {
+			color: #999;
+			font-size: 14px;
+			text-transform: uppercase;
+			
 		}
 		.figure {
 			float: right;
 		}
-		.caption {
-			font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-			color: #666;
-			font-size: 14px;
-		}
+
 		h1,
 		h2,
 		h3,
@@ -122,6 +71,7 @@
 			font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 			font-color: #222;
 			font-weight: 800;
+			margin: 25px 0;
 		}
 		h1 {
 			font-size: 60px;
@@ -132,15 +82,21 @@
 		h3 {
 			font-size: 28px;
 		}
-		.contents {
-			font-size: 14px;
-			text-transform: uppercase;
-			color: #999;
+		header {
+			text-align: center;
 		}
+
 		.navigation {
 			border-top: 2px solid #ccc;
 			border-bottom: 2px solid #ccc;
-			padding: 20px;
+			padding: 50px;
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+		ol {
+			font-size: 20px;
+			line-height: 30px;
+			color: #999;
 		}
 		p {
 			font-family: Georgia, Helvetica, Arial, sans-serif;
@@ -148,15 +104,31 @@
 			font-color: #222;
 			line-height: 30px;
 		}
-		header {
-			text-align: center;
+		.picture {
+			border: solid 2px #ccc;
+			width: 975px;
 		}
-
+		.subtitle {
+			color: #999;
+			font-size: 20px;
+		}
+		.quote {
+			background: #f6f6f6;
+			border-left:solid 20px #e3e3e3;
+			font-style: italic;
+			font-size: 20px;
+			line-height: 30px;
+			padding: 30px;
+			width: 975px;
+		}
+		ul {
+			line-height: 30px;
+		}
 		</style>
 		<article>
 			<header class="container">
 				<h1>Aboriginal Australians</h1>
-				<p>From Wikipedia, the free encyclopedia</p>
+				<p class="subtitle">From Wikipedia, the free encyclopedia</p>
 			</header>
 			<div class="container picture">
 				<img src="images/aboriginal-australians.jpg" alt="">

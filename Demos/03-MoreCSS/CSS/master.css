@@ -1,0 +1,45 @@
+/*
+.box {
+	background: #eee url("../images/bg.gif") no-repeat 50px 50px;
+	height: 800px;
+}
+*/
+
+/*.logo {
+	background: url(../images/logo.png);
+	display: block;
+	height: 90px;
+	width: 280px;
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+*/
+.square {
+	background: gray;
+	border: 1px solid lightgray;
+	height: 200px;
+	width: 200px;
+}
+
+.bar {
+	background: darkgray;
+	height: 200px;
+
+/*	clear: both; */
+
+}
+.clearfix {
+	border: 2px solid green;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
