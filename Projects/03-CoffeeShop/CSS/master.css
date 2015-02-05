@@ -1,4 +1,90 @@
-header {
-	background: #AC8420;
+.button {
+	border: 2px solid #AC8420;
+	color: #AC8420;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	padding: 10px;
+	text-align: center;
+	width: 120px;
+}
+.container {
 	margin: 0 auto;
+	width: 1150px;
+}
+.figure {
+	float: right;
+}
+.footer {
+	background: #222;
+	height: 200px;
+	width: 100%;
+}
+.footerlogo {
+	background: url(../images/logo_small.png);
+	display: block;
+	height: 50px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 50px;
+}
+.header {
+	background: #AC8420 url(../images/header.jpg) no-repeat;
+	border-bottom: 10px solid #AC8420;
+	height: 560px;
+	width: 100%;
+}
+
+.headercontent {
+	text-align: center;
+}
+
+.headerlogo {
+	background: url(../images/logo_large.png) no-repeat;
+	display: block;
+	height: 100px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 99px;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Sanchez', serif;
+}
+h1 {
+	color: #fff;
+	font-size: 60px;
+	font-weight: lighter;
+}
+
+.left {
+	float: left;
+}
+.logistics {
+	width: 100%;
+	position: relative;
+
+}
+
+.menu {
+	background: #AC8420;
+	border: 10px solid #AC8420;
+	width: 100%
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	color: #666;
+}
+
+.right {
+	float: right;
+}
+.subtitle {
+	color: #ccc;
+	font-size: 22px;
 }
