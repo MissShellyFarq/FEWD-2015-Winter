@@ -50,7 +50,15 @@ h3 {
 header {
 	text-align: center;
 }
-
+.nav {
+	color: #999;
+	font-size: 20px;
+	line-height: 30px;
+}
+.nav_sub {
+	font-size: 16px;
+	list-style-type: none;
+}
 .navigation {
 	border-top: 2px solid #ccc;
 	border-bottom: 2px solid #ccc;
@@ -58,11 +66,7 @@ header {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-ol {
-	font-size: 20px;
-	line-height: 30px;
-	color: #999;
-}
+
 p {
 	font-family: Georgia, Helvetica, Arial, sans-serif;
 	font-size: 16px;
